@@ -1,7 +1,9 @@
-mod variables; 
+mod variables;  
+mod shadowing;
 
 fn main() { 
-    variables::immutable_variable();
+    variables::immutable_variable(); 
+    shadowing::shadowed_var();
 }
 
 
