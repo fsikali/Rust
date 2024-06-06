@@ -1,13 +1,29 @@
 mod variables;  
 mod shadowing; 
 mod shadowing_a;
-mod datatypes;
+mod data_types; 
+mod numeric; 
+mod boolean; 
+mod char; 
+mod tuple; 
+mod tuple_a;
+mod array; 
+mod function; 
+mod function_a;
 
 fn main() { 
     variables::immutable_variable(); 
     shadowing::shadowed_var();  
     shadowing_a::shadowing(); 
-    datatypes::my_data_type();
+    data_types::my_data_type(); 
+    numeric::numeric_operations(); 
+    boolean::my_boolean(); 
+    char::my_char(); 
+    tuple::my_tuple(); 
+    tuple_a::my_tuple();
+    array::my_array(); 
+    function::my_function(); 
+    function_a::my_function();
 }
 
 
