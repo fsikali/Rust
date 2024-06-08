@@ -8,7 +8,8 @@ pub fn immutable_variable() {
     x  = 10; 
     println!("The value of x is: {x}"); 
 
-    immutable_var();
+    immutable_var(); 
+   // my_string();
 } 
 
 fn immutable_var() { 
@@ -17,7 +18,18 @@ fn immutable_var() {
 
     y = 25; 
     println!("The value of y is: {y}");
+} 
+
+/*
+ 
+fn my_string() { 
+    let name: &str = "Flemming"; 
+
+    println!("My name is: {}", name);
 }
+
+*/
+
 
 
 

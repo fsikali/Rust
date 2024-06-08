@@ -9,7 +9,13 @@ mod tuple;
 mod tuple_a;
 mod array; 
 mod function; 
-mod function_a;
+mod function_a; 
+mod string; 
+mod function_return_type; 
+mod if_expression; 
+mod loops;  
+mod while_loop;
+
 
 fn main() { 
     variables::immutable_variable(); 
@@ -23,7 +29,13 @@ fn main() {
     tuple_a::my_tuple();
     array::my_array(); 
     function::my_function(); 
-    function_a::my_function();
+    function_a::my_function(); 
+    string::my_string(); 
+    function_return_type::return_type(); 
+    if_expression::if_statement(); 
+    loops::my_loop();  
+    while_loop::while_loop();
+    
 }
 
 
