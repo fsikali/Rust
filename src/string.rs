@@ -1,14 +1,20 @@
-pub fn my_string() { 
-    let firstname: &str = "Flemming";  
+// Ownweship in rust
+// using push_str method and String type
 
-    let fname: String = String::from("Flemming");
+pub fn my_string() {  
+
+    let mut firstname: String = String::from("Flemming");  
+
+    firstname.push_str("Sikali");
     
     println!("----------------------------------------------->");
     println!("My first name is: {}", firstname);  
-    println!("My name is: {}", fname); 
+ 
 
     add_string(); 
-    clone_string();
+    clone_string(); 
+    string_type(); 
+    string_clone();
   
 } 
 
@@ -33,8 +39,67 @@ fn clone_string() {
     println!("------------------------------------------------");
     println!("This is the car name: {}", car_name); 
     println!("This is another car name: {}", another_car_name);
+}    
 
-} 
+// Moving ownership 
+
+fn string_type() { 
+    let  first_phone: String = String::from("Samsung"); 
+    let another_phone: String = first_phone; 
+
+    println!("Another phone is: {}", another_phone); 
+
+}
+
+// Clone allows copying directly from the heap
+
+fn string_clone() { 
+    let first_phone: String = String::from("OPPPO"); 
+    let another_phone: String = first_phone.clone();
+
+    println!("My other phone: {}", another_phone);
+    println!("First phone: {}", first_phone);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

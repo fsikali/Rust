@@ -36,11 +36,7 @@ fn main() {
     loops::my_loop();  
     while_loop::while_loop(); 
     for_loop::my_for_loop();
-    string::my_string();   
-
-
-    
-    
+    string::my_string();     
 }
 
 
