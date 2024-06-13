@@ -15,6 +15,8 @@ pub fn my_string() {
     clone_string(); 
     string_type(); 
     string_clone();
+    test_string_literal();
+    another_string();
   
 } 
 
@@ -59,8 +61,34 @@ fn string_clone() {
 
     println!("My other phone: {}", another_phone);
     println!("First phone: {}", first_phone);
-}
+} 
 
+// Re-assigning in string literal
+fn test_string_literal() { 
+  // let a: &str = "Car";   
+
+   let mut a: &str = "book"; 
+
+   println!("{a}");
+
+   a = "pen";
+
+   println!("{a}");
+
+    let  b = "pen";
+
+    println!("{b}");
+}
+ // Check if string type cannot re-assign due to ownership
+fn another_string() { 
+    let c: String = String::from("earphones"); 
+
+    let d: String = c;
+
+    println!("{d}");  
+
+    
+}
 
 
 
