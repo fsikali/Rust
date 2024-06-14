@@ -16,6 +16,9 @@ mod loops;
 mod while_loop; 
 mod for_loop;
 mod string; 
+mod ownership;
+mod refrences;
+mod vec;
 
 
 fn main() { 
@@ -36,7 +39,10 @@ fn main() {
     loops::my_loop();  
     while_loop::while_loop(); 
     for_loop::my_for_loop();
-    string::my_string();     
+    string::my_string();  
+    ownership::my_ownership();
+    refrences::my_refrence();  
+    vec::my_vec();
 }
 
 
