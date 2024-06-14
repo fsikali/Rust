@@ -23,7 +23,10 @@ mod refrences_a;
 mod refrences_b; 
 mod refrences_c; 
 mod refrences_d;
-mod refrences_e;
+mod refrences_e; 
+mod slices_a; 
+mod structs; 
+mod struct_a;
 
 
 fn main() { 
@@ -52,7 +55,10 @@ fn main() {
     refrences_b::my_ref(); 
     refrences_c::my_ref();  
     refrences_d::mutable_ref(); 
-    refrences_e::immutabe_ref();
+    refrences_e::immutabe_ref(); 
+    slices_a::my_slice(); 
+    structs::my_struct();
+    struct_a::get_area();
 
 }
 
