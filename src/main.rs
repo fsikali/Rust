@@ -18,7 +18,12 @@ mod for_loop;
 mod string; 
 mod ownership;
 mod refrences;
-mod vec;
+mod vec; 
+mod refrences_a; 
+mod refrences_b; 
+mod refrences_c; 
+mod refrences_d;
+mod refrences_e;
 
 
 fn main() { 
@@ -42,7 +47,13 @@ fn main() {
     string::my_string();  
     ownership::my_ownership();
     refrences::my_refrence();  
-    vec::my_vec();
+    vec::my_vec(); 
+    refrences_a::my_ref(); 
+    refrences_b::my_ref(); 
+    refrences_c::my_ref();  
+    refrences_d::mutable_ref(); 
+    refrences_e::immutabe_ref();
+
 }
 
 
