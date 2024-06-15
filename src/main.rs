@@ -26,7 +26,12 @@ mod refrences_d;
 mod refrences_e; 
 mod slices_a; 
 mod structs; 
-mod struct_a;
+mod struct_a; 
+mod struct_b;
+mod struct_c; 
+mod enum_a;
+
+
 
 
 fn main() { 
@@ -58,7 +63,10 @@ fn main() {
     refrences_e::immutabe_ref(); 
     slices_a::my_slice(); 
     structs::my_struct();
-    struct_a::get_area();
+    struct_a::get_area(); 
+    struct_b::get_data(); 
+    struct_c::get_area();  
+    enum_a::my_enum();
 
 }
 

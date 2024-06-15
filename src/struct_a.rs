@@ -22,7 +22,15 @@ pub fn get_area() {
  // is an immutable borrow of a struct Rectangle instance
 fn rect_area(rectangle: &Rectangle) -> u64 { 
       rectangle.length * rectangle.width     
-}
+} 
+
+
+
+
+
+
+
+
 
 
 
