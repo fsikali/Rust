@@ -29,9 +29,14 @@ mod structs;
 mod struct_a; 
 mod struct_b;
 mod struct_c; 
-mod enum_a;
-
-
+mod enum_a; 
+mod enum_b; 
+mod enum_c;
+mod enum_d;  
+mod enum_e;
+mod enum_f; 
+mod enum_g;
+mod match_a;
 
 
 fn main() { 
@@ -66,7 +71,14 @@ fn main() {
     struct_a::get_area(); 
     struct_b::get_data(); 
     struct_c::get_area();  
-    enum_a::my_enum();
+    enum_a::my_enum(); 
+    enum_b::enum_data(); 
+    enum_c::enum_data(); 
+    enum_d::enum_data(); 
+    enum_e::enum_data();  
+    enum_f::my_enum();
+    enum_g::my_enum(); 
+    match_a::my_match();
 
 }
 
