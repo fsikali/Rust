@@ -14,7 +14,27 @@ pub fn my_ownership() {
 fn calculate_length(s: String) -> (String, usize) {
     let length: usize = s.len(); // len() returns the length of a String
     (s, length)
+
 }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
