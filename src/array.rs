@@ -12,3 +12,6 @@ pub fn my_array() {
     println!("This is the teacher age: {}", teacher_age);
 } 
 
+
+
+
