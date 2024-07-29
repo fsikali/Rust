@@ -37,6 +37,7 @@ mod enum_e;
 mod enum_f; 
 mod enum_g;
 mod match_a;
+mod slices_b;
 
 
 fn main() { 
@@ -79,6 +80,7 @@ fn main() {
     enum_f::my_enum();
     enum_g::my_enum(); 
     match_a::my_match();
+    slices_a::my_slice();
 
 }
 
