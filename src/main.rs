@@ -36,8 +36,21 @@ mod enum_d;
 mod enum_e;
 mod enum_f; 
 mod enum_g;
-mod match_a;
 mod slices_b;
+mod struct_method_b; 
+mod struct_method_a; 
+mod struct_method_c; 
+mod struct_method_d; 
+mod struct_method_e; 
+mod enum_method_a; 
+mod enum_option_a; 
+mod enum_match_a; 
+mod enum_match_b; 
+mod enum_match_c; 
+mod enum_match_d;
+mod enum_match_e;
+mod enum_match_f;
+mod enum_match_g;
 
 
 fn main() { 
@@ -79,9 +92,22 @@ fn main() {
     enum_e::enum_data();  
     enum_f::my_enum();
     enum_g::my_enum(); 
-    match_a::my_match();
     slices_a::my_slice();
-
+    struct_method_b::my_struct();
+    struct_method_a::my_struct();  
+    struct_method_c::my_struct(); 
+    struct_method_d::my_struct(); 
+    struct_method_e::my_struct(); 
+    enum_method_a::my_enum(); 
+    enum_option_a::my_enum(); 
+    enum_option_a::my_enum(); 
+    enum_match_a::my_match(); 
+    enum_match_b::my_match(); 
+    enum_match_c::my_match(); 
+    enum_match_d::my_match();
+    enum_match_e::my_match();
+    enum_match_f::my_match(); 
+    enum_match_g::my_match();
 }
 
 

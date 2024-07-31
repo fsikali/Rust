@@ -6,6 +6,10 @@
 enum Option<T> { 
     None, 
     Some(T),
+} 
+
+pub fn my_enum() { 
+  
 }
  
 // <T> means that 'Some' variant of the 'Option' enum can hold one 
