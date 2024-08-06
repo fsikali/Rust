@@ -15,7 +15,7 @@ mod if_expression;
 mod loops;  
 mod while_loop; 
 mod for_loop;
-mod string; 
+mod string_a; 
 mod ownership;
 mod refrences;
 mod vec; 
@@ -51,7 +51,17 @@ mod enum_match_d;
 mod enum_match_e;
 mod enum_match_f;
 mod enum_match_g;
-
+mod vectors_a;
+mod vectors_b;
+mod vectors_c;
+mod vectors_d;
+mod vectors_e; 
+mod vectors_f;
+mod vectors_g;
+mod vectors_i;
+mod vectors_j;
+mod string_b;
+mod hashmaps_a;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -71,7 +81,7 @@ fn main() {
     loops::my_loop();  
     while_loop::while_loop(); 
     for_loop::my_for_loop();
-    string::my_string();  
+    string_a::my_string();  
     ownership::my_ownership();
     refrences::my_refrence();  
     vec::my_vec(); 
@@ -108,6 +118,17 @@ fn main() {
     enum_match_e::my_match();
     enum_match_f::my_match(); 
     enum_match_g::my_match();
+    vectors_a::my_vector(); 
+    vectors_b::my_vector(); 
+    vectors_c::my_vector();
+    vectors_d::my_vector();
+    vectors_e::my_vector();
+    vectors_f::my_vector(); 
+    vectors_g::my_vector();
+    vectors_i::my_vector();
+    vectors_j::my_vector();
+    string_b::my_string();
+    hashmaps_a::my_hashmap();
 }
 
 
