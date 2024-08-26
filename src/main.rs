@@ -61,7 +61,9 @@ mod vectors_g;
 mod vectors_i;
 mod vectors_j;
 mod string_b;
-mod hashmaps_a;
+mod hashmaps_a; 
+mod utf8_string_a; 
+mod utf8_string_b;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -128,7 +130,9 @@ fn main() {
     vectors_i::my_vector();
     vectors_j::my_vector();
     string_b::my_string();
-    hashmaps_a::my_hashmap();
+    hashmaps_a::my_hashmap(); 
+    utf8_string_a::my_string(); 
+    utf8_string_a::my_string();
 }
 
 
