@@ -62,12 +62,17 @@ mod vectors_i;
 mod vectors_j;
 mod string_b;
 mod hashmaps_a; 
+mod hashmaps_b; 
+mod hashmaps_c; 
+mod hashmaps_d;
 mod utf8_string_a; 
 mod utf8_string_b; 
 mod utf8_string_c;
 mod utf8_string_d;
 mod utf8_string_e; 
 mod utf8_string_f;
+mod utf8_string_g;
+mod utf8_string_h;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -102,7 +107,7 @@ fn main() {
     struct_b::get_data(); 
     struct_c::get_area();  
     enum_a::my_enum(); 
-    enum_b::enum_data(); 
+    enum_b::enum_dkata(); 
     enum_c::enum_data(); 
     enum_d::enum_data(); 
     enum_e::enum_data();  
@@ -134,13 +139,18 @@ fn main() {
     vectors_i::my_vector();
     vectors_j::my_vector();
     string_b::my_string();
-    hashmaps_a::my_hashmap(); 
+    hashmaps_a::my_hashmap();  
+    hashmaps_b::my_hashmap(); 
+    hashmaps_c::my_hashmap(); 
+    hashmaps_d::my_hashmap();
     utf8_string_a::my_string(); 
     utf8_string_b::my_string();
     utf8_string_c::my_string(); 
     utf8_string_d::my_string(); 
     utf8_string_e::my_string(); 
-    utf8_string_f::my_string();
+    utf8_string_f::my_string(); 
+    utf8_string_g::my_string();
+    utf8_string_h::my_string();
 }
 
 
