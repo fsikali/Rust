@@ -75,7 +75,8 @@ mod utf8_string_d;
 mod utf8_string_e; 
 mod utf8_string_f;
 mod utf8_string_g;
-mod utf8_string_h;
+mod utf8_string_h; 
+mod error_handling_a;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -156,7 +157,8 @@ fn main() {
     utf8_string_e::my_string(); 
     utf8_string_f::my_string(); 
     utf8_string_g::my_string();
-    utf8_string_h::my_string();
+    utf8_string_h::my_string(); 
+    error_handling_a::check_error();
 }
 
 

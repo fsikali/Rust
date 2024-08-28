@@ -25,4 +25,5 @@ pub fn my_hashmap() {
 // Here we store the mutable reference in the count variable, so in order to assign to that value, 
 // we must frst deference count using the asterisk (*). 
 // The mutable reference goes out of scope at the end of the for loop, so all of these changes are 
-// safe and allowed by the borrowing rules. 
+// safe and allowed by the borrowing rules.  
+
