@@ -77,6 +77,13 @@ mod utf8_string_f;
 mod utf8_string_g;
 mod utf8_string_h; 
 mod error_handling_a;
+mod error_handling_b;
+mod error_handling_c; 
+mod error_handling_d;
+mod error_handling_e; 
+mod error_handling_f;
+mod error_handling_h;
+mod error_handling_i;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -158,7 +165,14 @@ fn main() {
     utf8_string_f::my_string(); 
     utf8_string_g::my_string();
     utf8_string_h::my_string(); 
-    error_handling_a::check_error();
+    error_handling_a::check_error(); 
+    error_handling_b::check_error(); 
+    error_handling_c::check_error(); 
+    error_handling_d::check_error(); 
+    error_handling_e::check_error(); 
+    error_handling_f::check_error(); 
+    error_handling_h::check_error(); 
+    error_handling_i::check_error();
 }
 
 
