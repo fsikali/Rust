@@ -82,8 +82,15 @@ mod error_handling_c;
 mod error_handling_d;
 mod error_handling_e; 
 mod error_handling_f;
+mod error_handling_g;
 mod error_handling_h;
-mod error_handling_i;
+mod error_handling_i; 
+mod error_handling_j; 
+mod error_handling_k; 
+mod error_handling_l;
+mod error_handling_m; 
+mod error_handling_n; 
+mod error_handling_o;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -170,9 +177,16 @@ fn main() {
     error_handling_c::check_error(); 
     error_handling_d::check_error(); 
     error_handling_e::check_error(); 
-    error_handling_f::check_error(); 
+    error_handling_f::check_error();  
+    error_handling_g::check_error();
     error_handling_h::check_error(); 
-    error_handling_i::check_error();
+    error_handling_i::check_error();  
+    error_handling_j::check_error(); 
+    error_handling_k::check_error(); 
+    error_handling_l::check_error();
+    error_handling_m::check_error();  
+    error_handling_n::check_error(); 
+    error_handling_o::check_error();
 }
 
 
