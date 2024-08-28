@@ -18,11 +18,14 @@ pub fn my_enum() {
 
 // Example using 'Option' values to hold number types and string types
 
-let some_number = Some(5); 
-let some_char = Some('e'); 
 
-let absent_number: Option<i32> = None;
+pub fn my_enum() { 
+  let some_number = Some(5); 
+  let some_char = Some('e'); 
+  
+  let absent_number: Option<i32> = None; 
 
+} 
 
 // The type of 'some_number' is Option<i32> 
 // The type of 'some_char' is Option<char> which is a different type
@@ -45,7 +48,7 @@ let absent_number: Option<i32> = None;
    a valid value. 
 */
  
- //  For example, this code won't compile, because it's tying to add
+ //  For example, this code won't compile, because it's tyring to add
  //  an i8 to an Option<i8>  
 
  let x: i8 =5; 

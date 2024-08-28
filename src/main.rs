@@ -1,4 +1,4 @@
-mod variables;  
+mod variables;   
 mod shadowing; 
 mod shadowing_a;
 mod data_types; 
@@ -90,7 +90,21 @@ mod error_handling_k;
 mod error_handling_l;
 mod error_handling_m; 
 mod error_handling_n; 
-mod error_handling_o;
+mod error_handling_o; 
+mod generic_a; 
+mod generic_b; 
+mod generic_c; 
+mod generic_data_types_a; 
+mod generic_data_types_b;
+mod generic_data_types_c; 
+mod generic_data_types_d; 
+mod generic_data_types_e; 
+mod generic_data_types_f; 
+mod generic_data_types_g; 
+mod generic_data_types_h;
+mod generic_data_types_i; 
+mod generic_data_types_j; 
+mod traits_a;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -125,7 +139,7 @@ fn main() {
     struct_b::get_data(); 
     struct_c::get_area();  
     enum_a::my_enum(); 
-    enum_b::enum_dkata(); 
+    enum_b::enum_data(); 
     enum_c::enum_data(); 
     enum_d::enum_data(); 
     enum_e::enum_data();  
@@ -186,7 +200,22 @@ fn main() {
     error_handling_l::check_error();
     error_handling_m::check_error();  
     error_handling_n::check_error(); 
-    error_handling_o::check_error();
+    error_handling_o::check_error();  
+    generic_a::generic_type(); 
+    generic_b::generic_type(); 
+    generic_c::generic_type(); 
+    generic_data_types_a::my_data_type(); 
+    generic_data_types_b::my_data_type(); 
+    generic_data_types_c::my_data_type(); 
+    generic_data_types_d::my_data_type(); 
+    generic_data_types_e::my_data_type(); 
+    generic_data_types_f::my_data_type(); 
+    generic_data_types_g::my_data_type(); 
+    generic_data_types_h::my_data_type(); 
+    generic_data_types_i::my_data_type(); 
+    generic_data_types_j::my_data_type(); 
+    traits_a::thi_trait();
+
 }
 
 
