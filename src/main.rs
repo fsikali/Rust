@@ -106,7 +106,9 @@ mod generic_data_types_i;
 mod generic_data_types_j; 
 mod traits_a; 
 mod traits_b; 
-mod traits_c;
+mod traits_c; 
+mod traits_d;
+mod traits_e;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -219,7 +221,10 @@ fn main() {
     traits_a::my_trait(); 
     traits_b::my_trait(); 
     traits_c::my_trait(); 
-    
+    traits_d::my_trait(); 
+    traits_e::my_trait(); 
+    traits_f::my_trait();
+
 }
 
 

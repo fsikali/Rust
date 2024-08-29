@@ -15,5 +15,8 @@ pub fn my_trait() {
     println!("1 new tweet: {}", tweet.summarize());
 } 
 
+// This code prints 1 new tweet: horse_ebooks: of course, as you probably already know, 
+// people 
+
 
 
