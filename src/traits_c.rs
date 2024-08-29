@@ -15,3 +15,5 @@ pub fn my_trait() {
     println!("1 new tweet: {}", tweet.summarize());
 } 
 
+
+
