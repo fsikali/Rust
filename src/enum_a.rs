@@ -35,5 +35,16 @@ fn route(ip_kind: IpAddrKind) {}
 // we only know what kind it is. 
 // enum_b.rs file shows how to tackle this problem using structs 
 
+struct School { 
+    HighSchool
+}
 
+enum School { 
+    HighSchool, 
+    PrimarySchool,
+} 
 
+fn main() { 
+    let this_school = School::HighSchool;
+    let other_school = School::PrimarySchool;
+}

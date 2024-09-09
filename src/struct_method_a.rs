@@ -26,7 +26,7 @@ pub fn my_struct() {
 }
 
 
-// Here, we're choosing to make the width method return true if the value in thr instance's widht field
+// Here, we're choosing to make the width method return true if the value in the instance's widht field
 // is greater than 0 and false if the value is 0
 
 
