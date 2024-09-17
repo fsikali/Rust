@@ -13,7 +13,13 @@ pub fn my_array() {
 } 
 
 
+pub fn my_array() {  
+    let age: [u64; 5] = [20, 30, 40, 50, 60]; 
 
+    let teacher_age: u64 = age[4];  
+
+    println!("This is the teacher age: {}", teacher_age);
+}
 
 
 

@@ -47,4 +47,5 @@ enum School {
 fn main() { 
     let this_school = School::HighSchool;
     let other_school = School::PrimarySchool;
-}
+} 
+
