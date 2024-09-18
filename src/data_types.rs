@@ -7,7 +7,7 @@
 
 pub fn my_data_type() {
     let value_a: i8 = -12;    
-    let value_b = 25;   // compiler has inferred the type being used based on the value and how we have used it 
+    let value_b: i32 = 25;   // compiler has inferred the type being used based on the value and how we have used it 
     let value_c: u64 = 35;      
     let value_d: i128 = 350;
     let value_e: f32 = 0.02;    // Is a single precision float
@@ -24,3 +24,4 @@ pub fn my_data_type() {
     println!("This is 64 bit signed floating point type: {}", value_f);  
     //println!("This is the result: {}", result);
 }
+

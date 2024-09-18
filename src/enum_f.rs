@@ -11,7 +11,8 @@ enum Message {
 } 
 
 impl Message {
-    fn call(&self) { 
+    fn call(&self)  {  // check how to return in such a scenario
+        // self.Write
         // method body would be defined here
     }
 }

@@ -18,10 +18,9 @@ pub fn get_data() {
        // form: 4,
     };
  
-     println!("{}", get_details(&student_info));
+     println!("{}", get_details(&student_info)); 
 }  
 
- 
 
 // Create a function to access tha struct 
 

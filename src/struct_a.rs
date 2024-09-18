@@ -35,6 +35,3 @@ fn rect_area(rectangle: &Rectangle) -> u64 {
 
 
 
-
-
-

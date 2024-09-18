@@ -108,7 +108,8 @@ mod traits_a;
 mod traits_b; 
 mod traits_c; 
 mod traits_d;
-mod traits_e;
+mod traits_e; 
+mod enum_match_b_a;
 
 fn main() { 
     variables::immutable_variable(); 
@@ -223,7 +224,8 @@ fn main() {
     traits_c::my_trait(); 
     traits_d::my_trait(); 
     traits_e::my_trait(); 
-    traits_f::my_trait();
+    traits_f::my_trait(); 
+    enum_match_b_a::uscoins();
 
 }
 

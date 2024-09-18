@@ -46,6 +46,19 @@ enum School {
 
 fn main() { 
     let this_school = School::HighSchool;
-    let other_school = School::PrimarySchool;
+    let other_school = School::PrimarySchool; 
+
+    route(School::HighSchool); 
+    route(School::PrimarySchool); 
+
 } 
+
+
+enum IpAddrKind { 
+    V4,
+    V6,
+} 
+
+
+
 
