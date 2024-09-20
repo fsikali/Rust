@@ -24,3 +24,4 @@ pub fn my_match() {
 // Explanation 
 // First two arms -the patterns are the literal values 3 and 7 
 // last arm - covers every possible value, the pattern is the variable we have choosen to name other 
+
