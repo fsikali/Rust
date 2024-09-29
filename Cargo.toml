@@ -1,3 +1,4 @@
+workspace = { members = ["rust_pack"] }
 [package]
 name = "rust_class"
 version = "0.1.0"
