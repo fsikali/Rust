@@ -12,6 +12,3 @@ pub fn my_data_type() {
 } 
 
 
-
-
-
