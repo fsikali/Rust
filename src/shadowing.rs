@@ -13,4 +13,4 @@ pub fn shadowed_var() {
     }
 
     println!("The value of y is: {}", y);
-}
+} 
