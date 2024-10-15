@@ -19,3 +19,5 @@ fn calculate_length(s: &String) -> usize { // s is a refrence to a String
 // because we never had ownership.
 
 // The action of creating a refrence is called borrowing  
+
+
