@@ -19,13 +19,4 @@ pub fn my_vector() {
 // When we create a vector to hold a specific type, we can specify the type within angle brackets
 // 
    
-   
     
-     
-      
-       
-
-
-
-
-

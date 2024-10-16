@@ -12,4 +12,9 @@ pub fn my_vector() {
 
 // As with any variable, if we want to be able to change its value, we need to make
 // it mutable using the mut keyword
-// 
+//  
+
+pub fn my_vector() { 
+    let mut v = Vec::new();
+}
+

@@ -18,5 +18,3 @@ pub fn my_vector() {
 } 
  
    
-    
-     
