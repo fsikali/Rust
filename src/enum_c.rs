@@ -20,7 +20,6 @@ pub fn enum_data() {
     let home = IpAddr::V4(String::from("127.0.0.1")); 
     let loopback = IpAddr::V6(String::from("::1")); 
 
-
 } 
 
 // Advantages of using enums rather than structs 

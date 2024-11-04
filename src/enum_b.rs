@@ -4,13 +4,13 @@
 // Two instances
 // Representing the same concept using just enum is more concise
 
-enum IpAddrKind { 
+enum IpAddrKind {  // Lists the variants
     V4,
     V6,
 } 
  
  
-struct IpAddr { 
+struct IpAddr {   // Lists the fields
     kind: IpAddrKind, 
     address: String,
 } 
@@ -24,7 +24,8 @@ pub fn enum_data() {
     let loopback = IpAddr { 
         kind: IpAddrKind::V6,
         address: String::from("::1"),
-    };
+    }; 
+
 } 
 
 

@@ -1,10 +1,8 @@
 pub fn my_array() { 
-    let age: [u64; 5] = [20, 15, 12, 32, 60]; 
+    let age: [u64; 5] = [20, 15, 12, 32, 60];  
 
     //let score: [3 ; 5];
     //check on input and output in arrays using use::io
-
-
 
     let teacher_age: u64 = age[4];  
 

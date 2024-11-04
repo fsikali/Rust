@@ -21,4 +21,3 @@ pub fn my_data_type() {
     println!("p.x = {}", p.x());
 } 
 
-// 
